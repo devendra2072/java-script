@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            form #btn{
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="demo"></h1>
+
+        <center><form action="demo.php" method="get" onsubmit=" return validate()">
+            <label for="name">Name</label>
+            <input type="text" id="name" value="">
+            <br><br>
+            <label for="age">Age</label>
+            <input type="number" id="age" value="">
+            <br><br>
+            <label for="email">Email</label>
+            <input type="@email" id="email" value="">
+            <br><br>
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" value="">
+            <br><br>
+            <label for="name">Confrom Password</label>
+            <input type="password" id="cnf" value>
+            <br><br>
+            <input type="submit" value="Submit" id="btn" >
+        </form></center>
+        <script src="oct14.js"></script>
+    </body>
+</html>
