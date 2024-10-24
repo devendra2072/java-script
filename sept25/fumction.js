@@ -81,3 +81,18 @@
 
 
 
+// const de ={
+//   first : `devendra`,
+//   last : `kurwe`,
+//   hobby:{
+//     dance:`yes`,
+//     singing:`yes`,
+//   },
+//   fullNam: function(){
+//     return this.first+" "+this.last;
+//   }
+// }
+// console.log(de.fullNam());
+// let my = de.fullNam();
+// document.getElementById("dev").innerHTML = my;
+// document.getElementById("demo").innerHTML =  `hello`;

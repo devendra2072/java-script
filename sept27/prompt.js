@@ -4,11 +4,11 @@
 // console.log(name);
 // document.getElementById("demo").innerHTML = name + " " + age;
 
-// function circumference(r){
-//     return parseFloat(2 * r * Math.PI)
-// };
+function circumference(r){
+    return parseFloat(2 * r * Math.PI)
+};
 
-// document.write(circumference(7));
+document.write(circumference(7));
 
 // convert string to Number
 
@@ -65,13 +65,13 @@
 // };
 // alert(multi());
 
-const person = {
-  fristName: "devendra",
-  lastName: "kurwe",
-};
-const display = () => {
-  const element = document.getElementById("demo");
-  element.innerHTML = person.fristName + " " + person.lastName;
-};
+// const person = {
+//   fristName: "devendra",
+//   lastName: "kurwe",
+// };
+// const display = () => {
+//   const element = document.getElementById("demo");
+//   element.innerHTML = person.fristName + " " + person.lastName;
+// };
 
-display();
+// display();

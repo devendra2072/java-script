@@ -92,6 +92,6 @@
 
 // split method
 // split method convert to array
-let mystring = "Apple.Banana.Graphics.Watermelon";
-output = mystring.split(".");
+// let mystring = "Apple.Banana.Graphics.Watermelon";
+// output = mystring.split(".");
 // document.getElementById("demo").innerHTML = output; 

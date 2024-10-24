@@ -21,35 +21,35 @@
 // }
 
 // <!-- style change karne ke liye -->
-function change() {
-  let name = document.getElementById("click").value;
-  document.getElementById("ok").innerHTML = name;
-  let get = document.getElementById("ok");
-  get.style.color = "red";
-  get.style.fontSize = "40px";
-  get.style.fontFamily = "vardana";
-  get.style.fontWeight = "40px";
-  get.style.backgroundColor = "aqua";
-}
+// function change() {
+//   let name = document.getElementById("click").value;
+//   document.getElementById("ok").innerHTML = name;
+//   let get = document.getElementById("ok");
+//   get.style.color = "red";
+//   get.style.fontSize = "40px";
+//   get.style.fontFamily = "vardana";
+//   get.style.fontWeight = "40px";
+//   get.style.backgroundColor = "aqua";
+// }
 
-function yes() {
-  let name = document.getElementById("click").value;
-  document.getElementById("ok").innerHTML = name;
-  let get = document.getElementById("ok");
-  get.style.color = "red";
-  get.style.fontSize = "40px";
-  get.style.fontFamily = "vardana";
-  get.style.fontWeight = "40px";
-  get.style.backgroundColor = "blue";
-}
-function no() {
-  let name = document.getElementById("click").value;
-  document.getElementById("ok").innerHTML = name;
-  let get = document.getElementById("ok");
-  get.style.color = "blue";
-  get.style.fontSize = "40px";
-  get.style.fontFamily = "vardana";
-  get.style.fontWeight = "40px";
-  get.style.backgroundColor = "yellow";
-}
+// function yes() {
+//   let name = document.getElementById("click").value;
+//   document.getElementById("ok").innerHTML = name;
+//   let get = document.getElementById("ok");
+//   get.style.color = "red";
+//   get.style.fontSize = "40px";
+//   get.style.fontFamily = "vardana";
+//   get.style.fontWeight = "40px";
+//   get.style.backgroundColor = "blue";
+// }
+// function no() {
+//   let name = document.getElementById("click").value;
+//   document.getElementById("ok").innerHTML = name;
+//   let get = document.getElementById("ok");
+//   get.style.color = "blue";
+//   get.style.fontSize = "40px";
+//   get.style.fontFamily = "vardana";
+//   get.style.fontWeight = "40px";
+//   get.style.backgroundColor = "yellow";
+// }
 

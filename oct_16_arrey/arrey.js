@@ -1,17 +1,17 @@
 // Array
-// const weekdays = [
-//   "sunday",
-//   "monday",
-//   "tuesday",
-//   "wednesday",
-//   "thursday",
-//   "friday",
-//   "saturday",
-// ];
+const weekdays = [
+  "sunday",
+  "monday",
+  "tuesday",
+  "wednesday",
+  "thursday",
+  "friday",
+  "saturday",
+];
 
-// const d = new Date();
-// const day = d.getDay();
-// document.getElementById("demo").innerHTML = weekdays[day];
+const d = new Date();
+const day = d.getDay();
+document.getElementById("demo").innerHTML = weekdays[day];
 
 // forloop
 
