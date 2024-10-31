@@ -10,7 +10,7 @@
 // const newArray = cars.join("*");
 // console.log(newArray);
 
-// // sort method  sort the items alphabaticly 
+// // sort method  sort the items alphabaticly
 
 // console.log(cars.sort());
 
@@ -40,7 +40,7 @@
 // h1.innerHTML = fruits;
 // // h1.innerHTML = fruits.unshift();
 
-// // concat 
+// // concat
 
 // const arr1 = [1,2,3,4,5];
 // const arr2 = [6,7,8,9,10];
@@ -48,11 +48,39 @@
 // const arr4 = arr1.concat(arr2,arr3);
 // h1.innerHTML = arr4;
 
-
-
 // // slice method creates a new array from a given array
 // // and returns a new array containing the selected elements
 // // but the last element is excluded
 // // const sliceArray = arr4.slice(0,4);
 // const sliceArray = arr4.slice(3);
 // h1.innerHTML = sliceArray;
+
+const names = ["nimish", "hariom","devendra", "vishvash","aman" ];
+
+// slicing (starting position , number of elements to remove,)
+// elements to add ...)
+const newNames = names.splice(2,3, "hello" , "mohit");
+
+// const newNames = names.splice(2,4)
+
+console.log(names);
+
+// compaire function
+
+// // assending order
+// const numbers = [20,45,7866,1,98,123];
+// const sortednumberAsc = numbers.sort(function (a,b){
+//     return a- b;
+
+// })
+
+// console.log(sortednumberAsc);
+
+// desending order
+
+// const numbers = [20, 45, 7866, 1, 98, 123];
+// const sortednumberAsc = numbers.sort(function (a, b) {
+//   return  b - a;
+// });
+
+// console.log(sortednumberAsc);
