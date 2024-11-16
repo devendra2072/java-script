@@ -20,13 +20,13 @@
 
 // set time out ak bar run karta hai
 
-const display = () => {
-    alert("set time out runmning");
-}
+// const display = () => {
+//     alert("set time out runmning");
+// }
 
-const change = () => {
-    setTimeout(display, 1000);
-}
+// const change = () => {
+//     setTimeout(display, 1000);
+// }
 
 
 // set interval function ko baar baar call karta jata hai
@@ -42,12 +42,12 @@ const change = () => {
 
 // time Date
 
-// const setDate = () => {
-//     var myDate = new Date();
-//     var myTime = myDate.toLocaleTimeString();
-//     document.getElementById("demo").innerHTML = `current time ${myTime}`;
-// };
+const setDate = () => {
+    var myDate = new Date();
+    var myTime = myDate.toLocaleTimeString();
+    document.getElementById("demo").innerHTML = `current time ${myTime}`;
+};
 
-// const change = () => {
-//     setInterval(setDate, 1000);
-// };
+const change = () => {
+    setInterval(setDate, 1000);
+};

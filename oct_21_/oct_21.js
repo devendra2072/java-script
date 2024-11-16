@@ -11,7 +11,7 @@
 //     document.getElementById("demo").innerHTML = generatePass();
 // }  
 
-//map() create a new array from calling a function for every arry element 
+//map() return  a new array from calling a function for every arry element 
 // const numbers = [1,2,3,4,5,6,7,8];
 // const newArray = numbers.map( function (num)
 // {

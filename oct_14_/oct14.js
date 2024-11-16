@@ -5,7 +5,7 @@
 //     let pwd = document.getElementById("pwd").value;
 //     let cnf = document.getElementById("cnf").value;
 //     if(name == "" || age == "" || email == "" || pwd == "" || cnf==""){
-//         alert("All fields must be filled"); ;
+//         alert("All fields must be filled"); 
 //           return false;
 //     }
 //     else if(age < 0 || age >100){

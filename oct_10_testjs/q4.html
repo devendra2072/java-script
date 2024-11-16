@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="ok"></h1>
+    <input type="text" value id="click">
+    <button onclick="change()">green </button>
+    <button onclick="yes()">black</button>
+    <button onclick="no()">orange</button>
+    
+    
+    <script>
+
+       
+        function change() {
+            let name = document.getElementById("click").value;
+            document.getElementById("ok").innerHTML = name;
+            let get = document.getElementById("ok");
+           
+            get.style.backgroundColor = "aqua";
+          }
+          
+          function yes() {
+            let name = document.getElementById("click").value;
+            document.getElementById("ok").innerHTML = name;
+            let get = document.getElementById("ok");
+         
+            get.style.backgroundColor = "blue";
+          }
+          function no() {
+            let name = document.getElementById("click").value;
+            document.getElementById("ok").innerHTML = name;
+            let get = document.getElementById("ok");
+           
+            get.style.backgroundColor = "yellow";
+          }
+
+    </script>
+</body>
+</html>

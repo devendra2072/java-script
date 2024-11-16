@@ -1,26 +1,43 @@
-// Array
-const weekdays = [
-  "sunday",
-  "monday",
-  "tuesday",
-  "wednesday",
-  "thursday",
-  "friday",
-  "saturday",
-];
+// // Array
+// const weekdays = [
+//   "sunday",
+//   "monday",
+//   "tuesday",
+//   "wednesday",
+//   "thursday",
+//   "friday",
+//   "saturday",
+// ];
+// const d = new Date();
+// const day = d.getDay();
+// document.getElementById("demo").innerHTML = weekdays[day];
 
-const d = new Date();
-const day = d.getDay();
-document.getElementById("demo").innerHTML = weekdays[day];
+// const month = [
+//   "january",
+//   "february",
+//   "march",
+//   "april",
+//   "may",
+//   "jun",
+//   "july",
+//   "august",
+//   "september",
+//   "octuber",
+//   "november",
+//   "december"
+// ];
+
+// const d = new Date();
+// const months = d.getMonth();
+// document.getElementById("demo").innerHTML = month[months];
+
 
 // forloop
 
 // for (let i = 0; i <10; i++) {
 //     console.log(i);
 // }
-
 // arrey print  in for loop se
-
 // const number = [1,2,3,4,5,6,7,8,9];
 // let len = number.length;
 // // console.log(len);
@@ -47,7 +64,6 @@ document.getElementById("demo").innerHTML = weekdays[day];
 //   "friday",
 //   "saturday",
 // ];
-
 // let len = weekdays.length;
 // let text1 = "";
 // // console.log(len);
@@ -56,8 +72,8 @@ document.getElementById("demo").innerHTML = weekdays[day];
 // }
 // document.getElementById("demo").innerHTML = weekdays;
 
-// for in loop
 
+// for in loop
 // const person = {
 //     firstName: "John",
 //     lastName: "Doe",
@@ -65,7 +81,6 @@ document.getElementById("demo").innerHTML = weekdays[day];
 //     city: "London",
 // };
 // let text2 = "";
-
 // for (let key in person) {
 //     text2 += person[key]+" ";
 // }
@@ -79,15 +94,17 @@ document.getElementById("demo").innerHTML = weekdays[day];
 // }
 // document.getElementById("demo").innerHTML = text2;
 
+
+// =======================paturn=====================
 // for (let r = 1; r <= 10; r++) {
 //   document.write("*");
 // }
 
-// for (let r = 1; r <=5; r++) {
-//   for (let c = 1; c <= r; c++) {
-//     document.write("*");
-//   }
-//   document.write("<br>");
-// }
+for (let r = 1; r <=5; r++) {
+  for (let c = 1; c <= r; c++) {
+    document.write("*");
+  }
+  document.write("<br>");
+}
 
 

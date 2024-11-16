@@ -5,7 +5,6 @@
 // for (let x of cars) {
 //     data += x + " ";
 // }
-
 // document.getElementById("demo").innerHTML = data;
 
 // const language = "javascript";
@@ -38,13 +37,10 @@
 // Q  calculate the number
 // let sum = 0;
 // const number = [10,20,30,40,50,60,70,80,90,100];
-
 // function display (x) {
 //     sum += x;
 // }
-
 // number.forEach(display);
-
 // document.getElementById("demo").innerHTML = sum;
 
 function show() {
