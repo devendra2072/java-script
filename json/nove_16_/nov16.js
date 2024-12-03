@@ -15,9 +15,11 @@
 // await keyword  :- promish ka wait karta hai
 // 2st method :=Promise ko handle karta hai  
 
-const getdata = async () => {
-    let y = await "hello world";
-    console.log(y);
-};
+// const getdata = async () => {
+//     let y = await "hello world";
+//     console.log(y);
+// };
 
-getdata();
+// getdata();
+
+

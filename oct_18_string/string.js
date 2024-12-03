@@ -4,14 +4,14 @@
 // let data1 = " is a great language";
 
 // let output = data.length;
-// // concat mathode 
+// concat mathode 
 // output = data.concat(data1);
-// // output = data+(data1);
+// output = data+(data1);
 
 // console.log(output);
-// // output = data.at(0);
-// // output = data.charAt(0);
-// // output = data.charCodeAt(65);
+// output = data.at(5);
+// output = data.charAt(3);
+// output = data.charCodeAt(9);
 // console.log(output);
 // // at , charAt , charCodeAt ,[] for getting the element at location
 
@@ -21,7 +21,7 @@
 // let data  = "javascript";
 // output = data.slice(0,10);
 // output = data.slice(-16,-5);
-// // if you second value , it will slicie the rest of the string
+// if you second value , it will slicie the rest of the string
 // output = data.slice(-5);
 // console.log(output);
 
@@ -57,14 +57,15 @@
 // console.log(output);
 
 // indexof() method - (case-senstive,gets the first occurence)
-// let data1 = "javascript is a great language  and we have shuld learn Javascript";
+// let data1 = "javascript is a great language and we have shuld learn Javascript";
 // output = data1.indexOf("Javascript");
 // output = data1.indexOf("and" ,12);
 // console.log(output);
 
 // search 
-// let data1 = "Javascript is a great language  and we have shuld learn Javascript";
-// output = data1.search(/Javascript/i);
+// let data1 = "Javascript is a great language  and we have shuld learn javascript";
+// output = data1.search(/is/);
+// // output = data1.search(/javascript/);
 // console.log(output);
 
 // match method 
@@ -72,12 +73,14 @@
 // let para = `Mr Microsoft is working in microsoft company and he loves working in Microsoft `;
 
 // let output;
-// //match method returns  array of matched value 
-// //by default it selects first value 
-// // if you want all the values use regular expression with /word/g (global)
-// // case - sensitive remove /word/i
+//match method returns  array of matched value 
+//by default it selects first value 
+// if you want all the values use regular expression with /word/g (global)
+// case - sensitive remove /word/i
 // output = para.match("Microsoft");
 // output = para.match(/Microsoft/gi);
+// output = para.match(/Microsoft/g);
+// output = para.match(/Microsoft/i);
 
 // document.getElementById("demo").innerHTML = output + typeof output;
 
