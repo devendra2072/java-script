@@ -49,14 +49,14 @@
 // list += "</select>";
 // document.getElementById("demo").innerHTML = list;
 
-// const language = ["php","react", "javascript","html"];
-// var list = "<select>";
-// const data = language.map(display1);
-// function display1(key) {
-//     list += `<option>${key}</option>`;
-// }
-// list += "</select>";
-// document.getElementById("demo").innerHTML = list;
+const language = ["php","react", "javascript","html"];
+var list = "<select>";
+const data = language.map(display1);
+function display1(key) {
+    list += `<option>${key}</option>`;
+}
+list += "</select>";
+document.getElementById("demo").innerHTML = list;
 
 // const colors =["red","green","yellow","blue"];
 // let text = "<ul>";
@@ -95,19 +95,19 @@
 // mixed[3] = "kuch nahi";
 // console.log(mixed);
 
-const numbers1 = [2,4,6,8,10];
-const numbers = new Array ([1,2,3,4,5]);
-const numbers2 =[];
-numbers2[0] = "abhishek";
-numbers2[1] = "nikhil";
-numbers2[2] = "devendra";
-console.log(numbers2);
+// const numbers1 = [2,4,6,8,10];
+// const numbers = new  Array ([1,2,3,4,5]);
+// const numbers2 =[];
+// numbers2[0] = "abhishek";
+// numbers2[1] = "nikhil";
+// numbers2[2] = "devendra";
+// console.log(numbers2);
 
-const numbers3 = [];
-numbers3.push("bmw");
-numbers3.push("audi");
-numbers3.push("thar");
-console.log(numbers3)
+// const numbers3 = [];
+// numbers3.push("bmw");
+// numbers3.push("audi");
+// numbers3.push("thar");
+// console.log(numbers3)
 
 // string to array 
 // Array to String 
