@@ -49,18 +49,18 @@
 // list += "</select>";
 // document.getElementById("demo").innerHTML = list;
 
-const language = ["php","react", "javascript","html"];
-var list = "<select>";
-const data = language.map(display1);
-function display1(key) {
-    list += `<option>${key}</option>`;
-}
-list += "</select>";
-document.getElementById("demo").innerHTML = list;
+// const language = ["php","react", "javascript","html"];
+// var list = "<select>";
+// const data = language.map(display1);
+// function display1(key) {
+//     list += `<option>${key}</option>`;
+// }
+// list += "</select>";
+// document.getElementById("demo").innerHTML = list;
 
 // const colors =["red","green","yellow","blue"];
 // let text = "<ul>";
-// for (let i = 0; i < colors.length; i++) {
+// for (let i = 0; i < colors.length; i++) {  
 //      text += `<li>${colors[i]}</li>`;
 // }
 // document.getElementById("demo").innerHTML = text;
@@ -68,6 +68,7 @@ document.getElementById("demo").innerHTML = list;
 // const newColors = colors.map(function(key){
 //     text += `<li>${key}</li>`
 // })
+// text+="</ul>";
 // document.getElementById("demo").innerHTML = text;
 
 // for each 
@@ -80,11 +81,7 @@ document.getElementById("demo").innerHTML = list;
 // document.getElementById("demo").innerHTML = text;
 
 
-// const mixed =[
-//     "hello",
-//     78,
-//     34,
-//     "kya hua?",
+// const mixed =["hello",78,34,"kya hua?",
 //     {firstname:"John",lastname:"deo"}
 // ];
 
@@ -103,11 +100,11 @@ document.getElementById("demo").innerHTML = list;
 // numbers2[2] = "devendra";
 // console.log(numbers2);
 
-// const numbers3 = [];
-// numbers3.push("bmw");
-// numbers3.push("audi");
-// numbers3.push("thar");
-// console.log(numbers3)
+const numbers3 = [];
+numbers3.push("bmw");
+numbers3.push("audi");
+numbers3.push("thar");
+console.log(numbers3)
 
 // string to array 
 // Array to String 

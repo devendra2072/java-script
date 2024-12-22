@@ -6,15 +6,14 @@
 
 // programm to make first letter of string capitalize.
 
-// let str = "my name is nimish yadav and i am learning javascript";
+// let str = "my name is devendra kurwe";
 // let output1 = str.length;
 // let capital = str[0].toUpperCase() + str.slice(1)
 // console.log(capital)
-// // console.log(output1)
+// console.log(output1)
 
 // // write a programm to check the given no is positive or not.
 // var num = 100;
-
 // if (num > 0){
 //     console.log("enter its a positive")
 // }
@@ -27,32 +26,36 @@
 // let num2 = 23;
 // let num3 = 90;
 
-// if(num1 > num2){
-//     console.log(" enter maximum no")
+// if(num1 > num2 && num1 > num3){
+//     console.log(" num1 is maximum no")
 // }
-// else if(num2 > num3){
-//     console.log("enter maximum no")
+// else if(num2 > num3 && num2 > num1){
+//     console.log("num2 is maximum no")
 // }
-// else if(num3 < num1){
-//    console.log("its a maximum")
+// else if(num3 > num1 && num3 > num2){
+//    console.log("num 3 is a maximum")
 // }
 // else{
 //     console.log("not maximum")
 // }
 // programm to split string and convert to array of words.
-// let string = "my name is nimish yadav i have hunger to learn";
-
+// let string = "my name is devendra kurwe i have hunger to learn";
 // let output = string.split() 
 // console.log(output)
 // fibbonnacci series of given sequence up to a given no.
-// let n = prompt("enter a num")
+// let n = parseInt(prompt("Enter a number:")); // Ensure n is an integer
 // let num1 = 0;
 // let num2 = 1;
 // let nexterm;
-// 0
-// for(i = 0; i<=num; i++)
-// {
-//     nexterm = num1+num2;
+
+// console.log(num1); // Print the first Fibonacci number
+// if (n >= 1) {
+//     console.log(num2); // Print the second Fibonacci number
+// }
+
+// for (let i = 2; i <= n; i++) {
+//     nexterm = num1 + num2;
+//     if (nexterm > n) break; // Stop if the next term exceeds n
 //     console.log(nexterm);
 //     num1 = num2;
 //     num2 = nexterm;
@@ -66,9 +69,9 @@
 //     console.log("not empty")
 // }
 // // programm to find area of rectangle when height and width is given by user.
-// let input1 = prompt("enter a height")
-// let input2 = prompt("enter a width")
+let input1 = prompt("enter a height")
+let input2 = prompt("enter a width")
 
-// let areaof rectangle = input1*input2;
-// console.log(areaofrectangle)
+let areaofrectangle = input1*input2;
+console.log(areaofrectangle)
 // //

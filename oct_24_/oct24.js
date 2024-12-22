@@ -55,11 +55,11 @@
 // const sliceArray = arr4.slice(3);
 // h1.innerHTML = sliceArray;
 
-const names = ["nimish", "hariom","devendra", "vishvash","aman" ];
+const names = ["nimish", "hariom", "devendra", "vishvash", "aman"];
 
 // slicing (starting position , number of elements to remove,)
 // elements to add ...)
-const newNames = names.splice(2,3, "hello" , "mohit");
+const newNames = names.splice(2, 3, "hello", "mohit");
 
 // const newNames = names.splice(2,4)
 
